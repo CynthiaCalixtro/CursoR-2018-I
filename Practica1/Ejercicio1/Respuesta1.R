@@ -7,22 +7,10 @@
 x <- seq(5,-11,by = -0.3) 
 
 # Item b)
-# Para invertir la secuencia invertiremos el vector de indices
-# El vector de indices para x es 1:length(x), podemos invertirlo de
-# dos formas
-# Primera forma:
-length(x)+1-1:length(x)
-# Segunda forma:
-sort(1:length(x),decreasing = T)
-# Luego usariamos el vector de indices invertido para acceder a
-# los elementos de x y así poder invertir x.
-# Secuencia de x en orden invertido (primera forma):
-x1 <- x[length(x)+1-1:length(x)]
-# Secuencia de x en orden invertido (segunda forma):
-x2 <- x[sort(1:length(x),decreasing = T)]
-# Finalmente, sobreescribiriamos x usando cualquiera de los
-# x_i:
-x <- x1
+# Para invertir la secuencia invertiremos el vector de indices de x. Luego, con
+# estos indices invertidos accederemos a los elementos de x. Finalmente,
+# sobrescribimos x
+x <- x[length(x):1]
 
 # Item c)
 y <- c(-1,3,-5,7,-9)
