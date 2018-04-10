@@ -7,10 +7,9 @@
 x <- seq(5,-11,by = -0.3) 
 
 # Item b)
-# Para invertir la secuencia invertiremos el vector de indices de x. Luego, con
-# estos indices invertidos accederemos a los elementos de x. Finalmente,
-# sobrescribimos x
-x <- x[length(x):1]
+# Sobrescribimos x con las secuencia en orden invertido. Para esto usamos la
+# funcion 'rev'
+x <- rev(x)
 
 # Item c)
 y <- c(-1,3,-5,7,-9)
