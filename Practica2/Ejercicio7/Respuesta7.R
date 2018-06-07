@@ -1,5 +1,5 @@
 # Nombre: Cynthia Calixtro Ames 20150456D
-# Respuesta7: El codigo muestra  el uso de las funciones 
+# Respuesta7.a: El codigo muestra  el uso de las funciones 
 # 'file', 'close', 'readLines' y el empleo de teoria de 
 # probabilidades para la resolucion del ejercicio 
 
